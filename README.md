@@ -20,6 +20,7 @@ Before compiling, we should do some preperation.
         sudo apt-get install autoconf automake libtool
         cd glog
         mkdir build
+        cd build
         cmake ..
         make
         sudo make install
